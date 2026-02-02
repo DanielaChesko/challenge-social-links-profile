@@ -4,19 +4,26 @@
     padding: 0;
 }
 
+:root {
+  --color-fondo: #141414;
+  --color-tarjeta: #1f1f1f;
+  --color-texto: #ffffff;
+  --color-verde: #b9d570;
+}
+
 body{
-    background-color: #141414;
+    background-color: var(--color-fondo);
     height: 100vh;
 }
 
 main div{
-    background-color: #1f1f1f;
+    background-color: var(--color-tarjeta);
     display: flex;
     flex-direction: column;
     place-items: center;
-    max-width: 400px;
+    max-width: 25rem;
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 1.25rem;
     border-radius: 15px;
     padding: 30px;
 }
@@ -27,7 +34,7 @@ div img{
 }
 
 div h1{
-    color: white;
+    color: var(--color-texto);
     font-size: 1.3rem;
     font-weight:  500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,7 +43,7 @@ div h1{
 }
 
 .descripcion{
-    color: #b9d570;
+    color: var(--color-verde);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.9rem;
     letter-spacing: 0.1px;
@@ -44,7 +51,7 @@ div h1{
 }
 
 .cita{
-    color: aliceblue;
+    color: var(--color-texto);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
     font-weight: 100;
@@ -64,7 +71,7 @@ li a{
     display: block;
     text-align: center;
     text-decoration: none;
-    color: aliceblue;
+    color: var(--color-texto);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     font-size: small;
@@ -76,5 +83,5 @@ li a{
 }
 
 li a:hover{
-    background-color: #b9d570;
+    background-color: var(--color-verde);
 }
