@@ -21,9 +21,9 @@ main div{
     display: flex;
     flex-direction: column;
     place-items: center;
-    max-width: 25rem;
+    max-width: 22rem;
     margin: auto;
-    margin-top: 1.25rem;
+    margin-top: 12rem;
     border-radius: 15px;
     padding: 30px;
 }
